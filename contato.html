@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canais de Estudo | Karla Almeida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="logo">Karla<span>Almeida</span></div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="canais.html" class="active">Canais</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-button" aria-label="Alternar tema">
+                    <i class="fas fa-sun"></i>
+                </button>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="channels">
+            <h1>Minha biblioteca de estudo</h1>
+            <p class="channels-intro">
+                Ninguém cresce em tecnologia sozinho. Esses são alguns dos canais que 
+                fazem parte da minha rotina de estudo e já me puxaram para o próximo nível 
+                em diferentes momentos.
+            </p>
+
+            <div class="channels-grid">
+                <article class="channel-card">
+                    <img src="https://yt3.googleusercontent.com/ytc/AIdro_m-8zZRJBWMwnaHcJgQv2IRr0dLcqCv1yKcQHgSEZ26jHw=s160-c-k-c0x00ffffff-no-rj" 
+                         alt="Logo Curso em Vídeo">
+                    <div class="channel-content">
+                        <h2>Curso em Vídeo</h2>
+                        <p>
+                            Base sólida em programação e web, com aulas claras e progressivas.
+                            Perfeito para construir fundamentos que realmente ficam.
+                        </p>
+                        <a class="btn" href="https://m.youtube.com/@cursoemvideo?ra=m" target="_blank">
+                            Acessar canal
+                        </a>
+                    </div>
+                </article>
+
+                <article class="channel-card">
+                    <img src="https://yt3.googleusercontent.com/S8u66bTpfWDYoyM_bVsgiLRwsHvlKHR_EetDczOD9bTZohhaL0ncKgw499fLsYx2kTMZFv7eYZk=s160-c-k-c0x00ffffff-no-rj" 
+                         alt="Logo Rafaella Ballerini">
+                    <div class="channel-content">
+                        <h2>Rafaella Ballerini</h2>
+                        <p>
+                            Desenvolvedora que fala de código, carreira e comunidade com muita 
+                            clareza e proximidade. Ótimo para quem quer se ver na área.
+                        </p>
+                        <a class="btn" href="https://www.youtube.com/@rafaellaballerini/playlists" target="_blank">
+                            Ver playlists
+                        </a>
+                    </div>
+                </article>
+
+                <article class="channel-card">
+                    <img src="https://yt3.googleusercontent.com/wouftQsBoVBmxgKhsUDdEMTjbryCdl7pEOvh2Wy3NPrBpgY3K5RNAnMgXU8-TD3G20z4GYsy=s160-c-k-c0x00ffffff-no-rj" 
+                         alt="Logo Attekita Dev">
+                    <div class="channel-content">
+                        <h2>Attekita Dev</h2>
+                        <p>
+                            Conteúdo direto ao ponto sobre front-end, React e carreira em tecnologia,
+                            com dicas práticas para o dia a dia de quem está codando e estudando.
+                        </p>
+                        <a class="btn" href="https://m.youtube.com/@attekitadev?ra=m" target="_blank">
+                            Ir para o canal
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Karla Almeida. Aprender é rotina, não evento.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
